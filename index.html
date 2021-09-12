@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>CineWeb</title>
 </head>
 <body>
-    <div id="container">
     <h1>CineWeb</h1>
-    <video src="/video/MATRIX 4 RESURRECTIONS Trailer Brasileiro Legendado (2021[1].mp4"></video>
-    <div id="btn"></div>
+    <div id="container">
+            <video id="video" src="/video/mixkit-fireworks-illuminating-the-beach-sky-4157.mp4"></video>
+            <div id="controle">
+                <img class="btn" onclick="ret()" src="/icon/botao-retroceder.png">
+                <img class="btn" onclick="avanc()" src="/icon/botao-avancar.png">
+                <img class="btn" onclick="mais()" src="/icon/botao-mais.png">
+                <img class="btn" onclick="menos()" src="/icon/botao-menos.png">
+                <img class="btn" onclick="play()"src="/icon/botao-play.png">
+                <img class="btn" onclick="stop()"src="/icon/botao-stop.png">
+            </div>
     </div>
+    <script src="/script.js"></script>
 </body>
 </html>
